@@ -43,4 +43,12 @@ export class MoviesController {
 
 <img src="./gitImg/getQuery.PNG">
 
-"# hi-nest" 
+#### NestJs Service 란 Controller 에게 함수를 전달하는 JS 파일로 해당 파일에서 실질적인 함수를 export 한다
+
+```javascript
+nest g service
+// 로 설치가 가능하다
+```
+
+<img src="./gitImg/service.PNG">
+
