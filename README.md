@@ -39,4 +39,7 @@ export class MoviesController {
 // 접근 방식과 실행할 함수는 붙어있어야한다!
 ```
 
+#### Query 는 해당 이미지 처럼 @Query('쿼리명') 으로 받아와 사용이 가능하다
+
+<img src="./gitImg/getQuery.png">
 
