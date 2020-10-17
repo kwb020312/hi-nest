@@ -41,6 +41,6 @@ export class MoviesController {
 
 #### Query 는 해당 이미지 처럼 @Query('쿼리명') 으로 받아와 사용이 가능하다
 
-<img src="./gitImg/getQuery.png">
+<img src="./gitImg/getQuery.PNG">
 
 "# hi-nest" 
