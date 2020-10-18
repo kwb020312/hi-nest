@@ -70,3 +70,9 @@ nest g service
 
 <img src="./gitImg/pipes.PNG">
 
+```javascript
+class (클래스 명) extends (상속받을 클래스) {
+  // 로 해당 클래스의 속성을 상속받을 수 있다
+}
+```
+
