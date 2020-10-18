@@ -43,6 +43,8 @@ export class MoviesController {
 
 <img src="./gitImg/getQuery.PNG">
 
+# Service
+
 #### NestJs Service 란 Controller 에게 함수를 전달하는 JS 파일로 해당 파일에서 실질적인 함수를 export 한다
 
 ```javascript
@@ -51,4 +53,20 @@ nest g service
 ```
 
 <img src="./gitImg/service.PNG">
+
+# Pipes
+
+```javascript
+  app.useGlobalPipes(
+    new ValidationPipe({
+      // 받는 데이터에 제한을 주는 옵션들을 넣을 수 있음
+      whitelist: true
+      // whitelist : true 를 하게되면 원하는 타입에 값이 없는경우 오류를 return 해줌
+      transform: true
+      // transform: true 를 하는경우 원하는 타입의 값이 다른 타입일 경우 자동 변환해줌
+    })
+  )
+```
+
+<img src="./gitImg/pipes.PNG">
 
