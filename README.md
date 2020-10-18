@@ -82,3 +82,12 @@ class (클래스 명) extends (상속받을 클래스) {
 
 <img src="./gitImg/fastify.PNG">
 
+# Spect
+
+```javascript
+// spect.ts 파일에선 검사를 진행한다 아래와 같은 경우 expect(조건)이 .toEqula(4 ) 와 맞는지 검사 후 True OR False 를 반환해준다.
+it("should be 4" , () => {
+  expect(2+2).toEqual(4)
+})
+```
+
