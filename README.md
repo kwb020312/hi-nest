@@ -1,6 +1,6 @@
 # NestJs
 
-### NestJs 란 Express 대용으로 사용할 수 있는 서버 프레임워크 이다.
+### NestJs 란 ExpressJs 위에서 사용할 수 있는 서버 프레임워크 이다.
 
 #### 보통 TypeScript 와 NodeJs 기반으로 사용된다
 
@@ -75,4 +75,10 @@ class (클래스 명) extends (상속받을 클래스) {
   // 로 해당 클래스의 속성을 상속받을 수 있다
 }
 ```
+
+# Fastify
+
+#### fastify 란 expressJs 와 같이 동작하지만 2배 이상 빠른 프레임워크 이다.
+
+<img src="./gitImg/fastify.PNG">
 
