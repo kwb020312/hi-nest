@@ -91,3 +91,11 @@ it("should be 4" , () => {
 })
 ```
 
+#### movie 가 정의되었나 테스트
+<img src="./gitImg/expectDefined.PNG">
+
+#### result 의 타입이 Array 인가 테스트
+<img src="./gitImg/expectInsType.PNG">
+
+
+
