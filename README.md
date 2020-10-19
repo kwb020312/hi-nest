@@ -97,5 +97,13 @@ it("should be 4" , () => {
 #### result 의 타입이 Array 인가 테스트
 <img src="./gitImg/expectInsType.PNG">
 
+#### expect(값) 이 toBeGreaterThan(값) 보다 큰가?
+<img src="./gitImg/greaterthan.PNG">
+
+#### expect(값) 이 toBeGreaterThan(값) 보다 작은가?
+<img src="./gitImg/lessthan.PNG">
+
+
+
 
 
