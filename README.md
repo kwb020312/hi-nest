@@ -103,7 +103,18 @@ it("should be 4" , () => {
 #### expect(값) 이 toBeGreaterThan(값) 보다 작은가?
 <img src="./gitImg/lessthan.PNG">
 
+# E2E(End To End) Test
 
+#### E2E 테스트란 기존 함수 하나씩을 테스트 하는것이 아닌 한 페이지의 GET,POST ,DELETE,UPDATE 를 테스트하는 것
 
+#### npm run test:e2e 로 실행
 
+<img src="./gitImg/e2eTest.PNG">
 
+#### GET 의 경우 해당방법으로 실행한다
+
+<img src="./gitImg/e2eGet.PNG">
+
+#### 단, POST 의 경우 .post('주소') 후 .send(값) 을 넣어준 후 expect 해야함
+
+<img src="./gitImg/e2ePost.PNG">
